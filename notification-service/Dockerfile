@@ -10,5 +10,5 @@ COPY . .
 
 RUN go build -o main ./cmd/notification-service/main.go
 
-# Run the app
+
 CMD ["./main"]
